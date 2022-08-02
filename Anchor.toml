@@ -1,0 +1,12 @@
+[programs.localnet]
+farms = "H4USCP7cY9Rpsu6j3N6uLQ7tF1aNN9rLF9WfvjFGDfLe"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "http://127.0.0.1:8899"
+wallet = "/Users/fayd/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
